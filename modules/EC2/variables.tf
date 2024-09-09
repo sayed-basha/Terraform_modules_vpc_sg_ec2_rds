@@ -1,0 +1,10 @@
+variable "public_subnets_cidr_block" {}
+variable "private_subnets_cidr_block" {}
+variable "ami" {}
+variable "public_subnet_id" {}
+variable "private_subnet_id" {}
+variable "instance_type" {}
+variable "vpc_security_group_ids" {}
+variable "vpc_name" {}
+variable "region" {}
+variable "key_name" {}
