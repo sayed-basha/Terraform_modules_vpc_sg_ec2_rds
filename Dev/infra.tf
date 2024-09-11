@@ -48,7 +48,7 @@ module "dev_infra_rds" {
   publicly_accessible     = true
   backup_retention_period = 7
   multi_az                = true
-  identifier              = "vtricks"
+  identifier              = "my_rds"
   max_allocated_storage   = "20"
   vpc_security_group_ids  = module.dev_infra_sg.sg_id
   private_subnets_cidr_block = module.dev_infra_vpc.private_subnets_cidr_block
